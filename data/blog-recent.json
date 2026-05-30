@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "slug": "withdrawal-rejected-reasons-analysis",
+      "title": "提款申請遭拒的常見原因分析：身份驗證、帳戶限制與合規要求全解",
+      "category": "undefined",
+      "date": "2026-05-30",
+      "excerpt": "玩咗咁耐贏到錢，點知提款被拒？我哋明白你嘅無奈，等我哋幫你解開謎團！",
+      "imageUrl": "https://pixabay.com/get/g79b65b3a8c63cee35a075581e623cc28155b342bf52b49ce1585d0737eaf42a9249c8f71b1ce86d108820b8bcbd01648c564b461959bc0b67c0090733f931410_640.jpg"
+    },
+    {
       "slug": "online-gaming-ssl-encryption-analysis",
       "title": "博彩平台SSL加密機制解析與查驗方法研究",
       "category": "undefined",
@@ -15,14 +23,6 @@
       "date": "2026-05-30",
       "excerpt": "我哋玩家最關心嘅，梗係搵個安全可靠嘅網上娛樂平台啦！但面對PAGCOR同MGA呢啲牌照，究竟點揀先至最穩陣呢？",
       "imageUrl": "https://pixabay.com/get/gd842203f4b6c515dc7a1016c799d7669fa957a94144ac129a93149ae6eb77faee4bdeffb93ee3e3af7af7d24ed787bb580fce5e44470cb277afef7daaf23a092_640.jpg"
-    },
-    {
-      "slug": "online-gaming-license-verification-guide",
-      "title": "博彩平台牌照真偽驗證方法：監管機構查核與技術鑑別指南",
-      "category": "undefined",
-      "date": "2026-05-29",
-      "excerpt": "玩網上遊戲最怕中伏，點知個平台係咪正規？我哋幫你拆解，教你點樣一眼睇穿博彩平台嘅真假牌照，唔使再心慌慌！",
-      "imageUrl": "https://pixabay.com/get/gf01cbfa0ae16f63b1ba2a69915b980be96dcfeb3db48368f6411b1404bfe70f0b823e2d732f713f661b14a3492acf381dfd6c3d072ed7c665fcfd3a567b307ee_640.jpg"
     }
   ]
 }
