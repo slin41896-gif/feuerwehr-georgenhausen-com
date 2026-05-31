@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "slug": "kyc-identity-verification-gaming-platform-speed-factors",
+      "title": "博彩平台KYC身份驗證流程所需時間與影響效率關鍵因素研究分析",
+      "category": "undefined",
+      "date": "2026-05-31",
+      "excerpt": "講起網上博彩平台，我最怕就係提款等KYC驗證等到花兒都謝！究竟點解會咁？今日就同大家拆解背後嘅秘密。",
+      "imageUrl": "https://pixabay.com/get/gbc7eb7f0f0e405d1031cae6e8829011b6a54dd2a7cd01b5c3a0d93235b3d9766b7f0612acc18c45ad1fe94df97929e7c_640.jpg"
+    },
+    {
       "slug": "withdrawal-rejected-reasons-analysis",
       "title": "提款申請遭拒的常見原因分析：身份驗證、帳戶限制與合規要求全解",
       "category": "undefined",
@@ -15,14 +23,6 @@
       "date": "2026-05-30",
       "excerpt": "玩網上博彩最怕咩？梗係個人資料同資金安全啦！今日我就同大家拆解，點樣一眼睇穿平台係咪真係安全可靠！",
       "imageUrl": "https://pixabay.com/get/ge4f3bc94ababaeddf775cf99c5b35ce979139aeadadd6736ab3ef71103fa417357190177fcce7b75be388ecfdcb638bf9a8c8819174e88aa7c62dba449c0a5fb_640.jpg"
-    },
-    {
-      "slug": "pagcor-mga-license-comparison-hong-kong",
-      "title": "PAGCOR與MGA博彩牌照監管架構差異深度解析",
-      "category": "undefined",
-      "date": "2026-05-30",
-      "excerpt": "我哋玩家最關心嘅，梗係搵個安全可靠嘅網上娛樂平台啦！但面對PAGCOR同MGA呢啲牌照，究竟點揀先至最穩陣呢？",
-      "imageUrl": "https://pixabay.com/get/gd842203f4b6c515dc7a1016c799d7669fa957a94144ac129a93149ae6eb77faee4bdeffb93ee3e3af7af7d24ed787bb580fce5e44470cb277afef7daaf23a092_640.jpg"
     }
   ]
 }
