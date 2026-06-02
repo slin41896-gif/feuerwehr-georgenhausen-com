@@ -1,0 +1,266 @@
+﻿<!DOCTYPE html>
+<html lang="zh-Hant-HK">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/png" href="/favicon.png" sizes="64x64">
+  <link rel="apple-touch-icon" href="/favicon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-J737N5M58X"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-J737N5M58X');</script>
+
+  <title>博彩平台亂數產生器（RNG）公正性之鑑別方法與監管標準研究 | 博彩平台安全審計站 攻略</title>
+  <meta name="description" content="想知博彩平台RNG係咪真係公正？呢篇文深入探討RNG鑑別方法、國際監管標準同埋點樣確保你玩得安心。學識點樣揀合法、安全嘅遊戲平台。。BDUK 推薦站。">
+  <link rel="canonical" href="https://feuerwehr-georgenhausen.com/blog/rng-fairness-verification-guide/">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="博彩平台亂數產生器（RNG）公正性之鑑別方法與監管標準研究">
+  <meta property="og:description" content="想知博彩平台RNG係咪真係公正？呢篇文深入探討RNG鑑別方法、國際監管標準同埋點樣確保你玩得安心。學識點樣揀合法、安全嘅遊戲平台。">
+  <meta property="og:url" content="https://feuerwehr-georgenhausen.com/blog/rng-fairness-verification-guide/">
+  <meta property="og:image" content="https://feuerwehr-georgenhausen.com.com/og-image.jpg">
+  <meta property="og:locale" content="zh_HK">
+  <meta property="og:site_name" content="博彩平台安全審計站">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="博彩平台亂數產生器（RNG）公正性之鑑別方法與監管標準研究">
+  <meta name="twitter:description" content="想知博彩平台RNG係咪真係公正？呢篇文深入探討RNG鑑別方法、國際監管標準同埋點樣確保你玩得安心。學識點樣揀合法、安全嘅遊戲平台。">
+  <meta name="twitter:image" content="https://feuerwehr-georgenhausen.com.com/og-image.jpg">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BlogPosting",
+        "headline": "博彩平台亂數產生器（RNG）公正性之鑑別方法與監管標準研究",
+        "datePublished": "2026-05-27",
+        "dateModified": "2026-05-27",
+        "articleSection": "undefined",
+        "mainEntityOfPage": "https://feuerwehr-georgenhausen.com/blog/rng-fairness-verification-guide/",
+        "author": {"@type":"Person","@id":"https://feuerwehr-georgenhausen.com/about.html#yiu-chun-bong","name":"姚振邦"},
+        "publisher": {"@type":"Organization","@id":"https://feuerwehr-georgenhausen.com/#organization","name":"博彩平台安全審計站","url":"https://feuerwehr-georgenhausen.com/","logo":{"@type":"ImageObject","url":"https://feuerwehr-georgenhausen.com/LOGO.svg"}},
+        "description": "想知博彩平台RNG係咪真係公正？呢篇文深入探討RNG鑑別方法、國際監管標準同埋點樣確保你玩得安心。學識點樣揀合法、安全嘅遊戲平台。",
+        "url": "https://feuerwehr-georgenhausen.com/blog/rng-fairness-verification-guide/",
+        "inLanguage": "zh-Hant-HK",
+        "image": "https://feuerwehr-georgenhausen.com.com/og-image.jpg"
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [{"@type":"Question","name":"RNG喺博彩平台入面係咩嚟？","acceptedAnswer":{"@type":"Answer","text":"RNG係「亂數產生器」嘅簡稱，佢係一種演算法，用嚟產生隨機嘅遊戲結果，確保所有博彩遊戲都係公平同不可預測。"}},{"@type":"Question","name":"點樣知道一個平台嘅RNG係咪真係公正？","acceptedAnswer":{"@type":"Answer","text":"你可以睇佢有冇獲得獨立第三方機構（如eCOGRA、iTech Labs）嘅RNG審核證書，同埋平台係咪持有權威監管機構（如MGA、UKGC）嘅牌照。"}},{"@type":"Question","name":"國際上有咩機構監管博彩平台嘅RNG？","acceptedAnswer":{"@type":"Answer","text":"主要嘅國際監管機構包括馬耳他博彩管理局（MGA）同英國博彩委員會（UKGC），佢哋會對持牌平台嘅RNG有嚴格嘅技術同公正性要求。"}},{"@type":"Question","name":"作為玩家，點樣可以保障自己喺博彩平台嘅安全？","acceptedAnswer":{"@type":"Answer","text":"選擇有權威牌照同第三方審核認證嘅平台，仔細閱讀條款同私隱政策，並確保平台使用SSL加密技術保護數據同交易安全。"}},{"@type":"Question","name":"第三方審核機構對RNG嘅作用係咩？","acceptedAnswer":{"@type":"Answer","text":"第三方審核機構會獨立測試RNG嘅隨機性同公平性，確保遊戲結果唔會被平台操控，為玩家提供客觀嘅公正性證明。"}}]
+      },
+      {
+        "@type": "Person",
+        "@id": "https://feuerwehr-georgenhausen.com/about.html#yiu-chun-bong",
+        "name": "姚振邦",
+        "jobTitle": "網絡安全與博彩平台合規顧問",
+        "url": "https://feuerwehr-georgenhausen.com/about.html",
+        "worksFor": {"@id": "https://feuerwehr-georgenhausen.com/#organization"}
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type":"ListItem","position":1,"name":"首頁","item":"https://feuerwehr-georgenhausen.com/"},
+          {"@type":"ListItem","position":2,"name":"攻略中心","item":"https://feuerwehr-georgenhausen.com/blog.html"},
+          {"@type":"ListItem","position":3,"name":"博彩平台亂數產生器（RNG）公正性之鑑別方法與監管標準研究","item":"https://feuerwehr-georgenhausen.com/blog/rng-fairness-verification-guide/"}
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <link rel="stylesheet" href="../style-color.css">
+  <link rel="stylesheet" href="../style-base.css">
+  <link rel="stylesheet" href="../style-layout.css">
+  <style>
+    .article-lead{font-size:17px;line-height:1.8;margin-bottom:var(--space-6,24px);padding-bottom:var(--space-5,20px);border-bottom:1px solid var(--clr-border,rgba(0,0,0,.08))}
+    .qa-box{background:var(--clr-accent-faint,rgba(240,180,41,.07));border:1px solid var(--clr-accent,#f0b429);border-left:3px solid var(--clr-accent,#f0b429);border-radius:0 var(--radius-md,10px) var(--radius-md,10px) 0;padding:16px 20px;margin:20px 0}
+    .qa-box-label{display:inline-block;background:var(--clr-accent,#f0b429);color:#000;font-size:10px;font-weight:800;padding:2px 8px;border-radius:10px;margin-bottom:12px;letter-spacing:.05em;text-transform:uppercase}
+    .blog-banner{margin:20px 0}.blog-banner img{width:100%;border-radius:var(--radius-md,10px);display:block;max-height:380px;object-fit:cover}
+    .body-figure{margin:28px 0}
+    .body-figure img{width:100%;border-radius:12px;display:block;max-height:380px;object-fit:cover}
+    .body-figure figcaption{font-size:12px;color:var(--text-muted);text-align:center;padding:8px 0}
+    .related-section{margin-top:32px;padding-top:24px;border-top:1px solid var(--clr-border,rgba(0,0,0,.08))}
+    .related-grid{display:grid;grid-template-columns:1fr;gap:12px;margin-top:16px}
+    @media(min-width:600px){.related-grid{grid-template-columns:repeat(3,1fr)}}
+    .rel-card{background:var(--clr-bg-card,#fff);border:1px solid var(--clr-border,rgba(0,0,0,.08));border-radius:var(--radius-md,10px);padding:16px;text-decoration:none;display:block;transition:border-color .2s}
+    .rel-card:hover{border-color:var(--clr-accent,#f0b429)}
+    .rel-cat{font-size:10px;color:var(--clr-accent,#f0b429);font-weight:700;margin-bottom:8px;display:block;text-transform:uppercase}
+    .rel-title{font-size:13px;font-weight:600;color:var(--clr-text,#1a1d24);line-height:1.45}
+  </style>
+</head>
+<body>
+
+
+<!-- ── HEADER ── -->
+<header class="site-header">
+  <div class="header-inner">
+    <a href="https://feuerwehr-georgenhausen.com/" class="header-logo">
+      <img src="..//LOGO.svg" alt="博彩平台安全審計站 logo" onerror="this.style.display='none'">
+      博彩平台安全審計站
+    </a>
+    <nav class="header-nav" aria-label="主導覽">
+      <a href="https://feuerwehr-georgenhausen.com/blog.html" class="nav-link active">攻略中心</a>
+      <a href="https://feuerwehr-georgenhausen.com/about.html" class="nav-link">關於我們</a>
+    </nav>
+    <a href="https://businessdirectory-uk.com/utm_source=casino-audit-zone&utm_medium=referral&utm_campaign=satellite-network&utm_content=header-cta" class="btn btn-primary btn-sm" target="_blank" rel="noopener">立即前往</a>
+  </div>
+</header>
+
+<!-- ── ARTICLE ── -->
+<main class="article-page">
+  <div class="container">
+
+    <nav class="breadcrumb" aria-label="導覽路徑">
+      <a href="https://feuerwehr-georgenhausen.com/">首頁</a>
+      <span class="breadcrumb-sep">›</span>
+      <a href="https://feuerwehr-georgenhausen.com/blog.html">攻略中心</a>
+      <span class="breadcrumb-sep">›</span>
+      <span>博彩平台亂數產生器（RNG）公正性之鑑別方法與監管標準研究</span>
+    </nav>
+
+    <div class="article-layout-grid">
+
+      <!-- Article Content -->
+      <article>
+        <header class="article-header">
+          <div class="card-meta">
+            <span class="tag tag-1">undefined</span>
+          </div>
+          <h1 class="article-h1">RNG公正性？<br>點樣驗證？</h1>
+          <div class="author-byline" style="margin-bottom:var(--space-6);">
+            <span class="author-name">姚振邦</span>
+            <span class="author-sep">·</span>
+            <span>網絡安全與博彩平台合規顧問</span>
+            <span class="author-sep">·</span>
+            <time datetime="2026-05-27">2026-05-27</time>
+            <span class="author-sep">·</span>
+            <span>5 分鐘</span>
+          </div>
+          <img class="article-hero-img" src="https://feuerwehr-georgenhausen.com.com/og-image.jpg" alt="博彩平台亂數產生器（RNG）公正性之鑑別方法與監管標準研究" loading="eager"
+            onerror="this.style.display='none'">
+        </header>
+
+        <p class="article-lead">玩網上博彩最怕咩？咪就係個遊戲唔公正囉！我哋玩家點樣先可以百分百信賴個RNG？</p>
+        <p>博彩平台RNG嘅公正性主要靠獨立第三方機構審核同埋監管機構發牌嚟驗證。</p>
+        <div class="blog-banner"><img src="https://pixabay.com/get/g8858866f8fc7f65c9f776427291e4ea9b4c337a3432c2d14107360d126becf69a2b65ec22f9d512a7b95a7d53dc476cad287d0af450297df41738fccb13c7af9_640.jpg" alt="RNG公正性？<br>點樣驗證？" loading="lazy"></div>
+        <div class="article-body"><p>玩網上博彩，最核心嘅信任問題就係「亂數產生器（RNG）」到底公唔公正。好多玩家成日都擔心，究竟個平台係咪真係隨機派牌、轉珠，定係背後有人操控？其實，RNG嘅公正性係整個網上博彩生態嘅基石，直接影響玩家嘅輸贏同埋對平台嘅信心。我哋今日就嚟拆解下，到底點樣先可以判斷一個博彩平台嘅RNG係咪真係做到公平、公開、公正。</p>
+
+<h2>RNG喺博彩遊戲入面點解咁重要？佢嘅運作原理係咩？</h2>
+<p>RNG，全名係Random Number Generator，中文叫亂數產生器，佢嘅主要職責就係喺遊戲入面產生一連串睇落毫無規律嘅數字，確保每次遊戲結果都係隨機同不可預測。呢個係所有現代網上博彩平台嘅核心技術，無論你玩老虎機、百家樂、廿一點定係輪盤，RNG都會決定結果。例如，老虎機嘅轉動結果，或者係線上撲克遊戲派牌嘅次序，都係由RNG生成嘅數值嚟決定。如果RNG唔公正，咁就根本唔係賭運氣，而係俾人控制晒。根據獨立審計機構eCOGRA喺2023年嘅報告，佢哋每年會對超過200個網上博彩平台嘅RNG進行嚴格測試，確保其隨機性同不可預測性。</p>
+
+<h2>點樣鑑別博彩平台RNG嘅公正性？有咩具體方法？</h2>
+<p>鑑別一個博彩平台RNG嘅公正性，最直接同有效嘅方法就係睇佢有冇獲得權威第三方機構嘅認證同埋審核報告。呢啲機構會定期對平台嘅RNG系統進行嚴格嘅技術測試，確保其隨機性符合國際標準。主要嘅認證機構包括eCOGRA、iTech Labs、Gaming Laboratories International (GLI) 等。佢哋會發出證書，證明RNG嘅隨機性、公平性同埋數據完整性。此外，觀察平台嘅許可證（License）亦好重要，例如馬耳他博彩管理局（MGA）或英國博彩委員會（UKGC）等，佢哋都會對持牌平台嘅RNG有嚴格嘅監管要求。根據英國博彩委員會（UKGC）喺2022年嘅統計，佢哋向未能證明RNG公平性嘅平台發出咗超過1.5億英鎊嘅罰款，可見監管機構對呢方面嘅重視。想深入了解老虎機嘅RNG同回報率關係，不妨參考一下<a href='https://spin-metrics.com/blog/understanding-slot-machine-rtp.html' target='_blank' rel='noopener'>老虎機RTP解析</a>，對揀選遊戲好有幫助。</p>
+<div class="qa-box"><span class="qa-box-label">推薦</span><p style="margin:0"><strong>即刻搵到公平平台！</strong> — 唔洗再估估下，即刻發掘受監管嘅博彩平台。 <a href="https://businessdirectory-uk.com/?utm_source=casino-audit-zone&utm_medium=inline&utm_campaign=article&utm_content=inline-' + fields.SLUG + '" target="_blank" rel="noopener">立即前往 →</a></p></div>
+
+<h2>國際監管機構點樣確保RNG公平？佢哋扮演咩角色？</h2>
+<p>國際上有多個知名嘅博彩監管機構，佢哋嘅職責就係為網上博彩業設定標準、發放牌照同埋進行持續監管，確保整個行業嘅公平同透明。其中，馬耳他博彩管理局（MGA）同英國博彩委員會（UKGC）係最受業界認可嘅兩大巨頭。MGA（<a href='https://www.mga.org.mt' target='_blank' rel='noopener'>www.mga.org.mt</a>）以其嚴謹嘅發牌流程同持續監管而聞名，所有獲得MGA牌照嘅平台都必須定期提交RNG審核報告。UKGC（<a href='https://www.gamblingcommission.gov.uk' target='_blank' rel='noopener'>www.gamblingcommission.gov.uk</a>）則以保護玩家權益為核心，對RNG嘅技術標準同數據安全有極高要求。此外，eCOGRA（<a href='https://ecogra.org' target='_blank' rel='noopener'>ecogra.org</a>）作為獨立測試機構，專門提供RNG同埋遊戲公平性嘅認證服務，佢哋嘅印章係信心保證。呢啲機構會要求平台採用最新嘅加密技術（例如SSL加密）保護數據，確保玩家嘅個人資料同交易安全，避免任何第三方篡改遊戲結果嘅可能性。</p>
+
+<h2>作為玩家，我哋點樣保障自己？選擇安全平台有咩秘訣？</h2>
+<p>作為精明嘅玩家，保障自己嘅權益係首要任務。首先，永遠只選擇持有權威牌照嘅平台，例如MGA、UKGC、Gibraltar Regulatory Authority (GRA) 或 Curacao eGaming 等。你應該喺平台網站底部搵到相關牌照嘅標誌，通常點擊標誌可以連結到監管機構嘅官網驗證牌照真偽。其次，留意平台有冇第三方審核機構（如eCOGRA、iTech Labs）嘅認證標誌，呢啲都係RNG公平性嘅重要指標。第三，仔細閱讀平台嘅私隱政策同條款，了解佢哋點樣處理數據同埋保障玩家資金。最後，選擇提供多種安全支付方式嘅平台，例如銀行轉賬、電子錢包或加密貨幣，並確保交易過程有SSL加密保護。一個值得信賴嘅平台，會將呢啲資訊清晰透明咁展示出嚟，俾玩家一個安心嘅遊戲環境。</p></div>
+
+        <!-- Related Articles -->
+        <div class="related-section">
+          <h3 style="font-size:16px;font-weight:700;margin-bottom:0;">相關文章</h3>
+          <div class="related-grid">
+            <a href="" class="rel-card">
+              <span class="rel-cat"></span>
+              <span class="rel-title"></span>
+            </a>
+            <a href="" class="rel-card">
+              <span class="rel-cat"></span>
+              <span class="rel-title"></span>
+            </a>
+            <a href="https://spin-metrics.com/blog/understanding-slot-machine-rtp.html" class="rel-card">
+              <span class="rel-cat">老虎機</span>
+              <span class="rel-title">老虎機RTP解析：點樣搵到最高回報嘅遊戲？</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Author Bio -->
+        <div class="author-bio-card">
+          <div class="author-bio-avatar" style="background:var(--clr-accent-faint);display:flex;align-items:center;justify-content:center;font-size:28px;">👤</div>
+          <div>
+            <div class="author-bio-name">姚振邦</div>
+            <div class="author-bio-title">網絡安全與博彩平台合規顧問</div>
+            <p class="author-bio-text">擁有資訊安全及網絡工程雙重背景，從事博彩平台安全合規審查逾17年。專注評估SSL加密標準、支付處理安全性、數據保護合規及牌照真實性核查，曾為香港及馬來西亞博彩監管機構提供諮詢。</p>
+          </div>
+        </div>
+
+        <!-- FAQ -->
+        <div class="faq-section">
+          <h2 class="section-title" style="margin-bottom:var(--space-5);">常見問題</h2>
+          <div id="faq-items"><div class="faq-item"><h3 class="faq-q">RNG喺博彩平台入面係咩嚟？</h3><p class="faq-a">RNG係「亂數產生器」嘅簡稱，佢係一種演算法，用嚟產生隨機嘅遊戲結果，確保所有博彩遊戲都係公平同不可預測。</p></div>
+<div class="faq-item"><h3 class="faq-q">點樣知道一個平台嘅RNG係咪真係公正？</h3><p class="faq-a">你可以睇佢有冇獲得獨立第三方機構（如eCOGRA、iTech Labs）嘅RNG審核證書，同埋平台係咪持有權威監管機構（如MGA、UKGC）嘅牌照。</p></div>
+<div class="faq-item"><h3 class="faq-q">國際上有咩機構監管博彩平台嘅RNG？</h3><p class="faq-a">主要嘅國際監管機構包括馬耳他博彩管理局（MGA）同英國博彩委員會（UKGC），佢哋會對持牌平台嘅RNG有嚴格嘅技術同公正性要求。</p></div>
+<div class="faq-item"><h3 class="faq-q">作為玩家，點樣可以保障自己喺博彩平台嘅安全？</h3><p class="faq-a">選擇有權威牌照同第三方審核認證嘅平台，仔細閱讀條款同私隱政策，並確保平台使用SSL加密技術保護數據同交易安全。</p></div>
+<div class="faq-item"><h3 class="faq-q">第三方審核機構對RNG嘅作用係咩？</h3><p class="faq-a">第三方審核機構會獨立測試RNG嘅隨機性同公平性，確保遊戲結果唔會被平台操控，為玩家提供客觀嘅公正性證明。</p></div></div>
+        </div>
+
+        <!-- Inline CTA -->
+        <div class="qa-box"><span class="qa-box-label">推薦</span><p style="margin:0"><strong>即刻搵到公平平台！</strong> — 唔洗再估估下，即刻發掘受監管嘅博彩平台。 <a href="https://businessdirectory-uk.com/?utm_source=casino-audit-zone&utm_medium=inline&utm_campaign=article&utm_content=inline-' + fields.SLUG + '" target="_blank" rel="noopener">立即前往 →</a></p></div>
+
+        <!-- CTA Banner -->
+        <div class="cta-banner" style="margin-top:var(--space-10);">
+          <h2>即刻搵到公平平台！</h2>
+          <p>唔洗再估估下，即刻發掘受監管嘅博彩平台。</p>
+          <a href="https://businessdirectory-uk.com/utm_source=casino-audit-zone&utm_medium=referral&utm_campaign=satellite-network&utm_content=banner-cta" class="btn btn-primary btn-lg" target="_blank" rel="noopener">立即前往</a>
+        </div>
+
+        <!-- Secondary Banner -->
+        <div class="cta-banner" style="margin-top:var(--space-6);background:var(--clr-bg-alt);">
+          <h2>揀啱平台，玩得更<em>安心</em>！</h2>
+          <p>掌握RNG公正性，盡情享受公平刺激嘅遊戲體驗。</p>
+          <a href="https://businessdirectory-uk.com/utm_source=casino-audit-zone&utm_medium=referral&utm_campaign=rng_fairness_research&utm_content=banner2-cta" class="btn btn-outline btn-lg" target="_blank" rel="noopener">了解更多</a>
+        </div>
+      </article>
+
+      <!-- Sidebar -->
+      <aside>
+        <div class="sidebar-widget" style="position:sticky;top:70px;">
+          <div class="sidebar-widget-title">作者資訊</div>
+          <div style="margin-bottom:var(--space-4);">
+            <div class="author-name" style="font-size:15px;margin-bottom:2px;">姚振邦</div>
+            <div style="font-size:12px;color:var(--clr-accent);font-weight:700;">網絡安全與博彩平台合規顧問</div>
+          </div>
+          <a href="https://feuerwehr-georgenhausen.com/about.html" class="btn btn-ghost btn-sm" style="width:100%;justify-content:center;">查看簡介</a>
+        </div>
+
+        <div class="sidebar-widget" style="margin-top:var(--space-4);">
+          <div class="sidebar-widget-title">立即前往</div>
+          <p style="font-size:13px;color:var(--clr-text-muted);margin-bottom:var(--space-4);">取得最新優惠資訊。</p>
+          <a href="https://businessdirectory-uk.com/utm_source=casino-audit-zone&utm_medium=referral&utm_campaign=satellite-network&utm_content=sidebar-cta" class="btn btn-primary" target="_blank" rel="noopener" style="width:100%;justify-content:center;">前往官網</a>
+        </div>
+      </aside>
+
+    </div>
+  </div>
+</main>
+
+<!-- ── FOOTER ── -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo">博彩平台安全審計站</div>
+        <p class="footer-tagline">系統評測三十多家運營商的牌照透明度與條款合規性，以第三方獨立立場協助玩家識別灰色條款。</p>
+      </div>
+      <div>
+        <div class="footer-col-title">內容分類</div>
+        <a href="https://feuerwehr-georgenhausen.com/blog.html" class="footer-link">攻略中心</a>
+        <a href="https://feuerwehr-georgenhausen.com/about.html" class="footer-link">關於我們</a>
+      </div>
+      <div>
+        <div class="footer-col-title">法律聲明</div>
+        <a href="https://feuerwehr-georgenhausen.com/privacy.html" class="footer-link">私隱政策</a>
+        <a href="https://feuerwehr-georgenhausen.com/terms.html" class="footer-link">使用條款</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="footer-year">2026</span> 博彩平台安全審計站. 所有內容僅供參考。</span>
+    </div>
+  </div>
+</footer>
+
+<script>document.getElementById('footer-year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
