@@ -127,8 +127,10 @@
       "category": "提款速度",
       "angle": "疑問句型",
       "image_theme": "casino deposit withdrawal limits comparison",
-      "status": "available",
-      "writing_style": "比較分析，含表格，1300字"
+      "status": "used",
+      "writing_style": "比較分析，含表格，1300字",
+      "slug": "online-gaming-deposit-withdrawal-limits-comparison",
+      "used_date": "2026-06-03"
     },
     {
       "id": 13,
@@ -136,8 +138,10 @@
       "category": "合法牌照",
       "angle": "疑問句型",
       "image_theme": "hong kong offshore gambling platform legal risk",
-      "status": "available",
-      "writing_style": "法律分析，客觀中立，1200字"
+      "status": "used",
+      "writing_style": "法律分析，客觀中立，1200字",
+      "slug": "hk-offshore-gambling-legal-risks-compliance",
+      "used_date": "2026-06-03"
     },
     {
       "id": 14,
@@ -145,8 +149,10 @@
       "category": "客服評分",
       "angle": "疑問句型",
       "image_theme": "casino VIP program worth joining analysis",
-      "status": "available",
-      "writing_style": "利弊分析，含條件說明，1300字"
+      "status": "used",
+      "writing_style": "利弊分析，含條件說明，1300字",
+      "slug": "online-gaming-vip-program-analysis",
+      "used_date": "2026-06-03"
     },
     {
       "id": 15,
